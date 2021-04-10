@@ -1,6 +1,65 @@
-.test{
+body {
     background-color: black;
-    margin: 10;
-    padding: 100em;
-    font-size: 100px;
+    margin: 0;
+}
+
+#application {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+}
+
+.headline {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+
+#button_layer {
+    margin-left: auto;
+    margin-top: 2em;
+    text-align: center;
+    margin-right: auto;
+}
+
+.btn-1 {
+    color: white;
+    background-color: #0085FF;
+    padding: 0.8em;
+    border: none;
+    font-family: var(--font-family);
+    border-radius: 4px;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: 600;
+}
+
+.btn-1:hover {
+    transition: 0.1s ease-in-out;
+    background-color: #005aad;
+}
+
+.btn-2 {
+    padding: 0.8em;
+    border-radius: 4px;
+    background: none;
+    border: 2px solid #0085FF;
+    color: #0085FF;
+    font-family: var(--font-family);
+    line-height: inherit;
+    font-size: inherit;
+    font-weight: 600;
+}
+
+.btn-2:hover {
+    transition: 0.1s ease-in-out;
+    background-color: #0084ff1e;
+}
+
+button {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
 }
