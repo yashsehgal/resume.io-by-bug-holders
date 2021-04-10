@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('css/details/details.css');
+@import url('css/home/home.css');
+@import url('css/resume/resume.css');
+
+
+body {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:root {
+  --bg-black: #000000;
+  --font-family: "Raleway", sans-serif;
+}
