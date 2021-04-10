@@ -4,6 +4,7 @@ resume_container.className = "resume_container";
 
 let resume = document.createElement("div");
 resume.className = "resume";
+resume.id = "resume_pdf";
 
 let resume_data_object;
 
@@ -57,6 +58,36 @@ fetch('resume_data.json').then((res) => res.json()).then((res) => {
 });
 
 
+let button_layer = document.createElement("div");
+button_layer.id = "button_layer";
+button_layer.innerHTML = `
+  <button class="btn-1" onclick="generate();">Save as PDF</button>
+  <button class="btn-2">Create a new Resume</button>
+`;
+
+
 resume_container.append(resume);
+resume_container.append(button_layer);
 
 document.getElementById("application").appendChild(resume_container);
+
+generate = function () {
+  var pdf = new jsPDF('p', 'pt', 'a4');
+  pdf.setFontSize(18);
+  pdf.fromHTML(document.getElementById('resume_pdf'),
+    margins.left, // x coord
+    margins.top,
+    {
+      // y coord
+      width: margins.width// max width of content on PDF
+    }, function (dispose) {
+      headerFooterFormatting(pdf)
+    },
+    margins);
+
+  var iframe = document.createElement('iframe');
+  iframe.setAttribute('style', 'position:absolute;right:0; top:0; bottom:0; height:100%; width:650px; padding:20px;');
+  document.body.appendChild(iframe);
+
+  iframe.src = pdf.output('datauristring');
+};
