@@ -2,16 +2,21 @@
 #name {
   color: black;
   font-family: var(--font-family);
+  font-weight: bolder;
+  font-size: 42px;
 }
 
 #contact_number {
   color: black;
   font-family: var(--font-family);
+  font-weight: 600;
+  margin-right: 1em;
 }
 
 #email_address {
   color: black;
   font-family: var(--font-family);
+  color: black;
 }
 
 #github_profile {
@@ -47,6 +52,7 @@
 #college_name {
   color: black;
   font-family: var(--font-family);
+  font-weight: 650;
 }
 
 #projects {
@@ -57,4 +63,47 @@
 #state_country {
   color: black;
   font-family: var(--font-family);
+}
+
+#about {
+  color: black;
+  font-family: var(--font-family);
+}
+
+.resume {
+  background-color: white;
+  padding: 2em;
+}
+
+#icons {
+  color: black;
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#social_icons {
+  margin-top: 2em;
+}
+
+.flex {
+  display: flex;
+  margin-top: 3em;
+}
+
+#education-section {
+  margin-left: 6em;
+}
+
+h2 {
+  color: black;
+  font-family: var(--font-family);
+} 
+
+#about-section {
+  margin-top: 3em;
 }
