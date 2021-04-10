@@ -1,1 +1,60 @@
-/* No CSS *//*# sourceMappingURL=resume.css.map */
+#name {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#contact_number {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#email_address {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#github_profile {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#portfolio_url {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#instagram_url {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#linkedin_url {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#skills {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#course_name {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#college_name {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#projects {
+  color: black;
+  font-family: var(--font-family);
+}
+
+#state_country {
+  color: black;
+  font-family: var(--font-family);
+}
+/*# sourceMappingURL=resume.css.map */

@@ -1,0 +1,27 @@
+.header {
+  padding: 2em;
+}
+
+.header_option {
+  float: right;
+  color: white;
+  font-family: var(--font-family);
+  text-decoration: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.header_option:hover {
+  color: gray;
+}
+
+.logo {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+}
+/*# sourceMappingURL=header.css.map */

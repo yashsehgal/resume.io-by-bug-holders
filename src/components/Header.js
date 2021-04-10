@@ -2,25 +2,33 @@
 
 
 // Data for the header options
-const header_options = [
+const header_option = [
+  {
+    "title": "Create Resume",
+    "path": "/src/details.html"
+  },
   {
     "title": "Home",
     "path": "/index.html"
-  },
-  {
-    "title": "Create Resume",
-    "path": "src/details.html"
   }
+  
 ];
 
 /// creating an DOM Object as header
 let header = document.createElement("div");
-header.classname = "header";
+header.className = "header";
+
+let logo = document.createElement("a");
+logo.className = "logo"
+logo.innerHTML = "Resume.io";
+logo.href = "/index.html";
+
+header.append(logo)
 
 /// appending all the details in the header as header-options, accordingly
-for (let option in header_options) {
+for (let option in header_option) {
   let __option = document.createElement("a");
-  __option.classname = "header_option";
+  __option.className = "header_option";
   __option.innerHTML = header_option[option].title;
   __option.href = header_option[option].path;
   header.append(__option);
