@@ -8,8 +8,8 @@ const header_options = [
     "path": "/index.html"
   },
   {
-    "title": "GitHub",
-    "path": "https://www.github.com/yashsehgal"
+    "title": "Create Resume",
+    "path": "src/details.html"
   }
 ];
 
