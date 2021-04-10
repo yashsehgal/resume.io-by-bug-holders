@@ -6,7 +6,150 @@
   margin-top: -49px;
 }
 
-#firstName {
+#_firstName {
   padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_firstName:hover {
+  border: 1px solid #005aad;
+}
+
+#_lastName {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_lastName:hover {
+  border: 1px solid #005aad;
+}
+
+#_contactNumber {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_contactNumber:hover {
+  border: 1px solid #005aad;
+}
+
+#_email {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_email:hover {
+  border: 1px solid #005aad;
+}
+
+#_github {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_github:hover {
+  border: 1px solid #005aad;
+}
+
+#_portfolio {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_portfolio:hover {
+  border: 1px solid #005aad;
+}
+
+#_linkedin {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_linkedin:hover {
+  border: 1px solid #005aad;
+}
+
+#_collegeName {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_collegeName:hover {
+  border: 1px solid #005aad;
+}
+
+#_courseName {
+  padding: 0.6em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_courseName:hover {
+  border: 1px solid #005aad;
+}
+
+#_aboutMe {
+  height: 8em;
+  width: 23em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_aboutMe:hover {
+  border: 1px solid #005aad;
+}
+
+#_skills {
+  height: 8em;
+  width: 23em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_skills:hover {
+  border: 1px solid #005aad;
+}
+
+#_projects {
+  height: 8em;
+  width: 23em;
+  margin: 1em;
+  border: 1px solid white;
+  background-color: var(--bg-black);
+  color: White;
+}
+
+#_projects:hover {
+  border: 1px solid #005aad;
 }
 /*# sourceMappingURL=details.css.map */
