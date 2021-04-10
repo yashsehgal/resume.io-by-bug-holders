@@ -18,6 +18,7 @@ let firstName = document.createElement('input');
 firstName.type = 'text';
 firstName.id = '_firstName';
 firstName.placeholder = 'First Name';
+// firstName.style.padding = '0.4em';
 
 let lastName = document.createElement('input');
 lastName.type = 'text';
@@ -33,9 +34,9 @@ let contactDetails = document.createElement('div')
 contactDetails.id = '_contactDetails';
 
 let contactNumber = document.createElement('input');
-contactNumber.type = 'number'
+contactNumber.type = 'tel'
 contactNumber.id = '_contactNumber';
-contactDetails.placeholder = 'Contact Number'
+contactNumber.placeholder = 'Contact Number'
 
 let emailId = document.createElement('input');
 emailId.type = 'email'
@@ -88,20 +89,23 @@ courseName.id = '_courseName'
 courseName.placeholder = 'Course Name'
 
 
-let aboutMe = document.createElement('textarea')
-aboutMe.type = 'text';
-aboutMe.id = '_aboutMe';
-aboutMe.placeholder = 'About Me';
-
 self.append(collegeName);
 self.append(courseName);
-self.append(aboutMe);
+
 
 form.append(self);
 
 
 let self2 = document.createElement('div')
 self2.id = '_self2'
+
+
+
+let aboutMe = document.createElement('textarea')
+aboutMe.type = 'text';
+aboutMe.id = '_aboutMe';
+aboutMe.placeholder = 'About Me';
+
 
 let skills = document.createElement('textarea')
 skills.type = 'text'
@@ -113,6 +117,7 @@ projects.type = 'text'
 projects.id = '_projects'
 projects.placeholder = 'Projects (if any)';
 
+self2.append(aboutMe);
 self2.append(skills);
 self2.append(projects);
 
