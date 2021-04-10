@@ -3,6 +3,34 @@
     "firstname": "Yash",
     "lastname": "Sehgal",
     "contact_number": "9826544591",
-    "email_address": "yashsehgal.work@gmail.com"
+    "email_address": "yashsehgal.work@gmail.com",
+    "github_profile": "https://www.github.com/yashsehgal",
+    "about": "I am a Computer Science Student who's pursuing a Computer Science Degree in Specialization with Artificial Intelligence (AI), Hell Yeah! 🔥 I love to try building projects ⛏️ which can be converted to products and can help other developers or people, in general. I also like to guide people as per the basis of my knowledge, also whether it's about Coding, Software Development, Designing or Blockchain, Crypto-Currency, Neural Networks or Machine Learning, I will be there in the discussion. Languages 💻 which I like to work with are as follows: C/C++, Python, JavaScript, HTML, CSS/SCSS. Tools/Technologies 💻 I use on my Daily Basis: Adobe XD, Figma, Git, GitHub/BitBucket, NodeJS. Also, When I am lazy/not working, I love to spend time on FL Studio and make music. Also, I have some decent sketching skills.",
+    "portfolio_url": "https://yashsehgal.github.io/portfolio_v_2",
+    "instagram_url": "https://www.instagram.com/sehgalyash_",
+    "linkedin_url": "https://www.linkedin.com/in/yash-sehgal-55b7711a4/in",
+    "skills": "C++, Python, JavaScript, HTML, CSS/SCSS, Git",
+    "course_name": "B.Tech in Computer Science with AI",
+    "college_name": "Medicaps University, Indore",
+    "projects": "Discord Bot, CSS Library",
+    "state": "Madhya Pradesh",
+    "country": "India"
+  },
+  {
+    "firstname": "Jaspreet Singh",
+    "lastname": "Saini",
+    "contact_number": "9826544591",
+    "email_address": "yashsehgal.work@gmail.com",
+    "github_profile": "https://www.github.com/yashsehgal",
+    "about": "I am a Computer Science Student who's pursuing a Computer Science Degree in Specialization with Artificial Intelligence (AI), Hell Yeah! 🔥 I love to try building projects ⛏️ which can be converted to products and can help other developers or people, in general. I also like to guide people as per the basis of my knowledge, also whether it's about Coding, Software Development, Designing or Blockchain, Crypto-Currency, Neural Networks or Machine Learning, I will be there in the discussion. Languages 💻 which I like to work with are as follows: C/C++, Python, JavaScript, HTML, CSS/SCSS. Tools/Technologies 💻 I use on my Daily Basis: Adobe XD, Figma, Git, GitHub/BitBucket, NodeJS. Also, When I am lazy/not working, I love to spend time on FL Studio and make music. Also, I have some decent sketching skills.",
+    "portfolio_url": "https://yashsehgal.github.io/portfolio_v_2",
+    "instagram_url": "https://www.instagram.com/sehgalyash_",
+    "linkedin_url": "https://www.linkedin.com/in/yash-sehgal-55b7711a4/in",
+    "skills": "C++, Python, JavaScript, HTML, CSS/SCSS, Git",
+    "course_name": "B.Tech in Computer Science with AI",
+    "college_name": "Medicaps University, Indore",
+    "projects": "Discord Bot, CSS Library",
+    "state": "Madhya Pradesh",
+    "country": "India"
   }
 ]
