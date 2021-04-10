@@ -1,11 +1,14 @@
+
+const fs = require('fs');
+
+
 let title = document.createElement('div');
 title.id = '_title';
 title.innerHTML = `Add details`;
 
 application.append(title);
 
-let form = document.createElement('form');
-form.action= 'resume_date.json';
+let form = document.createElement('div');
 form.className = '_form';
 
 let nameSection = document.createElement('div');
@@ -115,6 +118,60 @@ self2.append(projects);
 
 form.append(self2);
 
+let button_layer = document.createElement("div");
+button_layer.id = "button_layer_";
+button_layer.innerHTML = `
+  <button class="submit-button" onclick="getUserDetails();">Generate Resume</button>
+`;
 
+form.append(button_layer);
 
 application.append(form);
+
+const getUserDetails = () => {
+  let first_name = document.getElementById("_firstName").value;
+  let last_name = document.getElementById("_lastName").value;
+  let contact_number = document.getElementById("_contactNumber").value;
+  let email_address = document.getElementById("_email").value;
+  let github_profile = document.getElementById("_github").value;
+  let portfolio_url = document.getElementById("_portfolio").value;
+  let linkedin_profile = document.getElementById("_linkedin").value;
+  let college_name = document.getElementById("_collegeName").value;
+  let course_name = document.getElementById("_courseName").value;
+  let about_me = document.getElementById("_aboutMe").value;
+  let skills = document.getElementById("_skills").value;
+  let projects = document.getElementById("_projects").value;
+
+  // console.log(first_name);
+  // console.log(last_name);
+  // console.log(contact_number);
+  // console.log(email_address);
+  // console.log(github_profile);
+  // console.log(portfolio_url);
+  // console.log(linkedin_profile);
+  // console.log(college_name);
+  // console.log(course_name);
+  // console.log(about_me);
+  // console.log(skills);
+  // console.log(projects);
+
+  let __temp_resume_data_object_ = {
+      "firstname": first_name,
+      "lastname": last_name,
+      "contact_number": contact_number,
+      "email_address": email_address,
+      "github_profile": github_profile,
+      "about": about_me,
+      "portfolio_url": portfolio_url,
+      "linkedin_url": linkedin_profile,
+      "skills": skills,
+      "course_name": course_name,
+      "college_name": college_name,
+      "projects": projects
+  }
+
+  console.log(__temp_resume_data_object_);
+
+  let data = JSON.stringify(__temp_resume_data_object_);
+  fs.writeFileSync('resume_data.json', data);
+};
