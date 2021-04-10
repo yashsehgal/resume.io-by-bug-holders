@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=details.css.map */
+#_title {
+  color: white;
+  font-size: 48px;
+  font-family: var(--font-family);
+  margin-left: 22px;
+  margin-top: -49px;
+}
+
+#firstName {
+  padding: 0.6em;
+}
+/*# sourceMappingURL=details.css.map */
