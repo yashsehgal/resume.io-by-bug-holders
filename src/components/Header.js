@@ -9,7 +9,7 @@ const header_option = [
   },
   {
     "title": "Home",
-    "path": "/index.html"
+    "path": "../../index.html"
   }
   
 ];
@@ -21,7 +21,7 @@ header.className = "header";
 let logo = document.createElement("a");
 logo.className = "logo"
 logo.innerHTML = "Resume.io";
-logo.href = "/index.html";
+logo.href = "../../index.html";
 
 header.append(logo)
 
