@@ -190,7 +190,7 @@ function checkButtonStatus() {
     _button_layer.id = "button_layer_";
     _button_layer.innerHTML = `
   <button class="btn-1" onclick="generate();">Save as PDF</button>
-  <button class="btn-2">Create a new Resume</button>
+  <button class="btn-2" onclick="reload();">Create a new Resume</button>
 `;
 
 
@@ -344,3 +344,7 @@ document.getElementById("application").appendChild(resume_container);
 
 //   iframe.src = pdf.output('datauristring');
 // };
+
+function reload() {
+  location.reload();
+}
