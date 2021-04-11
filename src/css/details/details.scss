@@ -1,3 +1,14 @@
+
+input {
+    width: 400px;
+}
+
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    font-family: var(--font-family);
+}
+
 #_title{
     color: white;
     font-size: 48px;
@@ -149,4 +160,9 @@
 }
 #_projects:hover{
     border: 1px solid #005aad;
+}
+
+._form {
+    margin-top: 3em;
+    margin-bottom: 2em;
 }

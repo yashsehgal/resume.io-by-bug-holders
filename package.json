@@ -1,0 +1,26 @@
+{
+  "name": "c2c-resume-maker",
+  "version": "1.0.0",
+  "description": "A pretty basic resume maker.",
+  "main": "home.js",
+  "scripts": {
+    "test": "resumeio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashsehgal/c2c-resume-maker.git"
+  },
+  "keywords": [
+    "resume",
+    "resume-maker"
+  ],
+  "author": "yashsehgal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashsehgal/c2c-resume-maker/issues"
+  },
+  "homepage": "https://github.com/yashsehgal/c2c-resume-maker#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}

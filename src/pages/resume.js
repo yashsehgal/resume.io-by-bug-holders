@@ -16,16 +16,12 @@ fetch('resume_data.json').then((res) => res.json()).then((res) => {
     <p id="name">${resume_data_object.firstname} ${resume_data_object.lastname}</p>
     <a id="contact_number">${resume_data_object.contact_number}</a>
     <a href="mailto:${resume_data_object.email_address}" id="email_address">${resume_data_object.email_address}</a>
-    <p id="state_country">${resume_data_object.state}, ${resume_data_object.country}</p>
     <div id="social_icons">
       <a href="${resume_data_object.github_profile}">
         <i class="fab fa-github" id="icons"></i>
       </a>
       <a href="${resume_data_object.portfolio_url}">
         <i class="fas fa-user-circle" id="icons"></i>
-      </a>
-      <a href="${resume_data_object.instagram_url}">
-        <i class="fab fa-instagram" id="icons"></i>
       </a>
       <a href="${resume_data_object.linkedin_url}">
         <i class="fab fa-linkedin" id="icons"></i>
