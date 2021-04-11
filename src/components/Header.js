@@ -5,7 +5,7 @@
 const header_option = [
   {
     "title": "Create Resume",
-    "path": "/src/details.html"
+    "path": "src/details.html"
   },
   {
     "title": "Home",
@@ -21,7 +21,7 @@ header.className = "header";
 let logo = document.createElement("a");
 logo.className = "logo"
 logo.innerHTML = "Resume.io";
-logo.href = "../index.html";
+logo.href = "../../index.html";
 
 header.append(logo)
 
